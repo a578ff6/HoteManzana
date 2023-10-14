@@ -20,13 +20,12 @@ class SelectRoomTypeTableViewController: UITableViewController {
         static let roomTypeCell = "RoomTypeCell"
     }
     
-    // 保存實現協定的實例的引用。
+    /// 保存實現協定的實例的引用。
     weak var delegate: SelectRoomTypeTableViewControllerDelegate?
     
     /// 存放當前選擇的房間類型
     var roomType : RoomType?
     
-
     // MARK: - Table view data source
 
     // 表格視圖的 row
