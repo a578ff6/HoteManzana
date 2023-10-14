@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936F08B02AD97B6B0073739F /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F08AF2AD97B6B0073739F /* SelectRoomTypeTableViewController.swift */; };
+		936F08B22AD9E2A40073739F /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F08B12AD9E2A40073739F /* RegistrationTableViewController.swift */; };
 		938BCE2E2AD8561A005CC01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE2D2AD8561A005CC01E /* AppDelegate.swift */; };
 		938BCE302AD8561A005CC01E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE2F2AD8561A005CC01E /* SceneDelegate.swift */; };
-		938BCE322AD8561A005CC01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE312AD8561A005CC01E /* ViewController.swift */; };
 		938BCE352AD8561A005CC01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938BCE332AD8561A005CC01E /* Main.storyboard */; };
 		938BCE372AD8561B005CC01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938BCE362AD8561B005CC01E /* Assets.xcassets */; };
 		938BCE3A2AD8561B005CC01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 938BCE382AD8561B005CC01E /* LaunchScreen.storyboard */; };
+		938BCE422AD87057005CC01E /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE412AD87057005CC01E /* Registration.swift */; };
+		938BCE442AD87063005CC01E /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE432AD87063005CC01E /* RoomType.swift */; };
+		938BCE462AD875BC005CC01E /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938BCE452AD875BC005CC01E /* AddRegistrationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		936F08AF2AD97B6B0073739F /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
+		936F08B12AD9E2A40073739F /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
 		938BCE2A2AD8561A005CC01E /* HoteManzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoteManzana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938BCE2D2AD8561A005CC01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		938BCE2F2AD8561A005CC01E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		938BCE312AD8561A005CC01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		938BCE342AD8561A005CC01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		938BCE362AD8561B005CC01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938BCE392AD8561B005CC01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		938BCE3B2AD8561B005CC01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		938BCE412AD87057005CC01E /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		938BCE432AD87063005CC01E /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
+		938BCE452AD875BC005CC01E /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				938BCE2D2AD8561A005CC01E /* AppDelegate.swift */,
 				938BCE2F2AD8561A005CC01E /* SceneDelegate.swift */,
-				938BCE312AD8561A005CC01E /* ViewController.swift */,
-				938BCE332AD8561A005CC01E /* Main.storyboard */,
+				938BCE452AD875BC005CC01E /* AddRegistrationTableViewController.swift */,
+				936F08AF2AD97B6B0073739F /* SelectRoomTypeTableViewController.swift */,
+				936F08B12AD9E2A40073739F /* RegistrationTableViewController.swift */,
+				938BCE412AD87057005CC01E /* Registration.swift */,
+				938BCE432AD87063005CC01E /* RoomType.swift */,
 				938BCE362AD8561B005CC01E /* Assets.xcassets */,
 				938BCE382AD8561B005CC01E /* LaunchScreen.storyboard */,
 				938BCE3B2AD8561B005CC01E /* Info.plist */,
+				938BCE332AD8561A005CC01E /* Main.storyboard */,
 			);
 			path = HoteManzana;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938BCE322AD8561A005CC01E /* ViewController.swift in Sources */,
+				936F08B02AD97B6B0073739F /* SelectRoomTypeTableViewController.swift in Sources */,
+				938BCE442AD87063005CC01E /* RoomType.swift in Sources */,
+				938BCE462AD875BC005CC01E /* AddRegistrationTableViewController.swift in Sources */,
 				938BCE2E2AD8561A005CC01E /* AppDelegate.swift in Sources */,
+				938BCE422AD87057005CC01E /* Registration.swift in Sources */,
 				938BCE302AD8561A005CC01E /* SceneDelegate.swift in Sources */,
+				936F08B22AD9E2A40073739F /* RegistrationTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
